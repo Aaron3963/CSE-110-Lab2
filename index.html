@@ -1,39 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <title>CodeDivers</title>
     <link rel="icon" type="image/x-icon" href="https://aaron3963.github.io/CSE110-Lab2/images/favicon.ico">
   </head>
   <body>
-    <h1>CodeDivers' First Meeting</h1>
+    <header>
+        <div>Inspired from HellDivers II</div>
+    </header>
+
+    <nav>
+        <p>CodeDivers Inc.</p>
+    </nav>
+
+    <hr>
+
+    <main>
+        <h1>CodeDivers' First Meeting</h1>
     <h3>Date: 2024/04/10</h3>
-    <h3>Attendance</h3>
-    <ul>
-        <li>😅: Present</li>
-        <li>👽: On Zoom</li>
-        <li>🤓: Absent</li>
-    </ul>
-    <h3>Agenda</h3>
-    <ol>
-        <li>Check-ins</li>
-        <li>Project overview</li>
-        <li>Brainstorming</li>
-        <li>Voting for ideas</li>
-        
-    </ol>
+
+    <section>
+        <h3>Attendance</h3>
+        <ul>
+            <li>😅: Present</li>
+            <li>👽: On Zoom</li>
+            <li>🤓: Absent</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h3>Agenda</h3>
+        <ol>
+            <li>Check-ins</li>
+            <li>Project overview</li>
+            <li>Brainstorming</li>
+            <li>Voting for ideas</li>
+            
+        </ol>
+    </section>
+    
+
+
     <h3>Leftovers from last  time</h3>
-        None. This is our first meeting.
+        <em>None.</em> This is our <a>first</a> meeting.
 
     <h3>Important things to talk about next time</h3>
         <b>Assign</b> <strong>responsibilities</strong>
 
     <h3>Questions & Concerns</h3>
-        👽 points out he <i>might be</i> absent on campus the whole quarter.
+        👽 points out he <i>might be</i> absent on campus the <br>whole</br> quarter.
     
     <h3>Diagrams we presented</h3>
     <picture>
         <img src="img.jpg" width="640" alt="It's just some random picture online">
     </picture>
+
+
+    
+
+    <form>
+        <fieldset>
+          <legend>Contacts</legend>
+
+          <input type="checkbox" id="checkbox1">
+          <label for="checkbox1">I agree giving my money. </label>
+
+          <input type="text" placeholder="Enter your name">
+
+
+            <input type="radio">
+            <label for="radio1">VISA</label>
+            <input type="radio">
+            <label for="radio2">MasterCard</label>
+
+          <label for="bank">| Choose your bank:</label>
+          <input list="banks" name="bank" id="bank">
+          <datalist id="banks">
+              <option value="Chase">
+              <option value="CitiBank">
+              <option value="BOA">
+          </datalist>
+
+
+        <form onsubmit="alert('+1 Credit')">
+            <input type="text" placeholder="Enter SSN" />
+            <button>Submit</button>
+        </form>
+
+        <input type="date">
+
+        <hr>
+        <textarea id="message" name="message" rows="4" cols="50">
+            Any feedbacks?
+          </textarea>
+        <hr>
+
+        </fieldset>
+
+      </form>
 
     <details>
         <summary>Recordings</summary>
@@ -47,5 +112,10 @@
             <source src="recording.m4a" type="audio/mpeg">
         </audio>
     </details>
+    </main>
+    
+    <footer>
+        For SuperEarth!
+    </footer>
   </body>
 </html>
